@@ -1,4 +1,5 @@
 import random
+
 from .quotes import quotes
 
 
@@ -12,4 +13,4 @@ def get_quote():
     :rtype: dict
     """
 
-    return quotes[random.randint(0, len(quotes)-1)]
+    return quotes[random.randint(0, len(quotes) - 1)]
